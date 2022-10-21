@@ -755,6 +755,7 @@ button:focus, button:active {
   -webkit-box-shadow: none;
           box-shadow: none;
   font-family: "Oswald", sans-serif;
+  font-size: 18px;
 }
 
 .form-control:focus, .form-control:active {
@@ -782,10 +783,12 @@ button:focus, button:active {
 
 .form-control-background-white {
   background-color: #fff;
+  border: 1px solid;
 }
 
 .form-control-background-white:focus, .form-control-background-white:active {
   background-color: #fff !important;
+  border: 1px solid;
 }
 
 .help-block {
@@ -6144,7 +6147,7 @@ button:focus, button:active {
   list-style: none;
   margin-top: 10px;
   margin-right: 10px;
-  display: inline-block;
+  display: block;
 }
 
 .sidebar-tag li a {
@@ -8177,3 +8180,119 @@ button:focus, button:active {
   border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
+
+.card{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  box-shadow: 0px 0px 4px 0px gray;
+  margin: 10px 0;
+}
+
+.card-item {
+  display: flex;
+  width: 100%;
+  position: relative;
+  height: 250px;
+
+}
+
+.img-hotel{
+height: 250px;
+width: 250px;
+object-fit: cover;
+}
+
+.name-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width:80%; /* some width */
+}
+
+.des-here{
+  width: 50%;
+}
+
+.total-price{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.color-green{
+  color: green;
+}
+
+.chu-y {
+  width: 70%;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.pr{
+  width: 30%;
+}
+.wrap-item{
+  width: 90%;
+
+}
+.rate{
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+}
+
+.point{
+  width: fit-content;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #10E9DD;
+  padding: 5px;
+}
+
+.rev{
+  margin-right: 10px;
+  font-style: italic;
+}
+
+.price-hotel{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.d-inline{
+  display: inline;
+}
+
+.d-inline-search{
+  font-style: italic;
+}
+
+.search-top{
+  margin-bottom: 10px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.border-none{
+  border: none;
+}
+
+.btn-search-detail{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.color-yellow{
+  color: #e7e709;
+}
